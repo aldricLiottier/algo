@@ -103,12 +103,15 @@ def house_cleaner(house :list):
             center = before_0.pop(0)
             time +=   math.fabs((center) - (x))
             x = center
-    print(time)
+    #print(time)
     res += after_0 +before_0
     print(res)
 
 house = numpy.random.normal(0,1000,100).tolist()
 
-greedy_house_cleaner(house)
+#greedy_house_cleaner(house)
 
-house_cleaner (house)
+#house_cleaner (house)
+
+def parcours(list :list):
+    house_cleaner (list)
