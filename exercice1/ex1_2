@@ -107,7 +107,7 @@ def house_cleaner(house :list):
     res += after_0 +before_0
     print(res)
 
-house = numpy.random.normal(0,1000,100).tolist()
+#house = numpy.random.normal(0,1000,100).tolist()
 
 #greedy_house_cleaner(house)
 
