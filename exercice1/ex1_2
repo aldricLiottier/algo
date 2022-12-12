@@ -75,7 +75,7 @@ def greedy_house_cleaner(house :list):
     res += after_0 +before_0
     print(res)
 
-def house_cleaner(house :list):
+def house_cleaner(house :list) -> list:
     before_0 = list()
     after_0 = list()
     for x in house:
@@ -105,7 +105,7 @@ def house_cleaner(house :list):
             x = center
     #print(time)
     res += after_0 +before_0
-    print(res)
+    return (res)
 
 #house = numpy.random.normal(0,1000,100).tolist()
 
@@ -113,5 +113,5 @@ def house_cleaner(house :list):
 
 #house_cleaner (house)
 
-def parcours(list :list):
-    house_cleaner (list)
+def parcours(list :list) ->list:
+    return house_cleaner (list)
